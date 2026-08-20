@@ -14,7 +14,7 @@ programa
             leia(valor)
 
             // Validação: repete enquanto o valor estiver fora do intervalo permitido
-            enquanto (valor <= 0 ou valor >= 10)
+            enquanto (valor < 0 ou valor > 10)
             {
                 escreva("Valor inválido! Digite um número maior que 0 e menor que 10: ")
                 leia(valor)
